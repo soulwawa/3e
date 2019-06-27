@@ -15,9 +15,9 @@ export default ({ children, title }) => (
       <Link href="/">
         <a>Home</a>
       </Link>
-      <Link href="/project">
+      {/* <Link href="/project">
         <a>Project</a>
-      </Link>
+      </Link> */}
     </header>
     {children}
     <footer>Copyright &copy; 2019. 3e All rights reserved</footer>
