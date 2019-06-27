@@ -11,7 +11,7 @@ module.exports = {
       '/about': { page: '/about' }
     }
   },
-  assetPrefix: !debug ? '/3e/' : '',
+  assetPrefix: !debug ? 'https://soulwawa.github.io/3e/' : '/',
   webpack: (config) => {
     config.module.rules.push(
       {

@@ -6,7 +6,7 @@ Last Update: June 26, 2019
 
 ---
 
-![](/static/about/3e.jpeg)
+![](/3e/static/about/3e.jpeg)
 
 👋🏻 Hello, DevOps를 꿈꾸는 python-django, react 개발자입니다.
 

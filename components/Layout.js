@@ -6,7 +6,7 @@ import Router from 'next/router';
 export default ({ children, title }) => (
   <div className='root'>
     <Head>
-      <title>NextJS Sample</title>
+      <title>3E</title>
     </Head>
     <header>
       <Link href="/about">

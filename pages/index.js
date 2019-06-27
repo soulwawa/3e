@@ -10,7 +10,7 @@ const Index = () => {
           <p>I'm a Seoul, South Korea based <span>Python developer</span> and <span>web developer</span> </p>
           <p>I want to be a full-stack developer. I am also interested in DevOps </p>
           {/* <p>Let's <a href="http://www.3es.me/project/">PROJECT</a></p> */}
-          <p>learn more <a href="http://www.3es.me/about/">ABOUT ME</a></p>
+          <p>learn more <Link href="/about"><a>About</a></Link></p>
           <p>The best ways to contact me are <a href="mailto:soulwawa85@gmail.com">Mail</a> and
           <a href="https://www.facebook.com/soulwawa"> Facebook</a> and <a href="https://github.com/soulwawa">Github</a></p>
         </main>
