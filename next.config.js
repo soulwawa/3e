@@ -11,5 +11,15 @@ module.exports = {
       '/about': { page: '/about' }
     }
   },
-  assetPrefix: !debug ? '/3e/' : ''
+  assetPrefix: !debug ? '/3e/' : '',
+  webpack: (config) => {
+    config.module.rules.push(
+      {
+        test: /\.md$/,
+        use: 'raw-loader'
+      }
+    )
+
+    return config
+  },
 }
