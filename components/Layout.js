@@ -1,27 +1,27 @@
 import Link from 'next/link';
-import Head from 'next/head';
+import React, { Fragment } from 'react'
 import Router from 'next/router';
+import Head from './Head';
 // import css from './Layout.scss';
 
 export default ({ children, title }) => (
-  <div className='root'>
-    <Head>
-      <title>3E</title>
-    </Head>
-    <header>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-      <Link href="/">
-        <a>Home</a>
-      </Link>
-      {/* <Link href="/project">
+  <Fragment>
+    <Head />
+    <div className='root'>
+      <header>
+        <Link href="/about">
+          <a>About</a>
+        </Link>
+        <Link href="/">
+          <a>Home</a>
+        </Link>
+        {/* <Link href="/project">
         <a>Project</a>
       </Link> */}
-    </header>
-    {children}
-    <footer>Copyright &copy; 2019. 3e All rights reserved</footer>
-    <style jsx>{`
+      </header>
+      {children}
+      <footer>Copyright &copy; 2019. 3e All rights reserved</footer>
+      <style jsx>{`
         .root {
           display: flex;
           flex-direction: column;
@@ -64,7 +64,7 @@ export default ({ children, title }) => (
         }
 
         `}</style>
-    <style jsx global>{`
+      <style jsx global>{`
       body {
         font-family: Orbitron, sans-serif;
         background-color: #111;
@@ -72,6 +72,7 @@ export default ({ children, title }) => (
         margin:0;
       }
       `}</style>
-  </div>
+    </div>
+  </Fragment>
 );
 
