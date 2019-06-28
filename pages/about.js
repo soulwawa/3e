@@ -11,23 +11,13 @@ const About = ({ content }) => {
         </main>
       </section>
       <style jsx global>{`
-        #about {
-          padding:2em;
-        }
-        p:nth-child(5) {
+        #about p:nth-child(5) {
           display: flex;
           justify-content: center;
           align-items: center;
         }
-        img {
+        #about img {
           height: 20em;
-        }
-        a {
-          font-size: 1.5rem;
-          background: linear-gradient(to right, #fbcac9, #aaaaaa);
-          background-clip: text;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
         }
         `}</style>
     </Layout>

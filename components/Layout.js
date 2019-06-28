@@ -67,10 +67,32 @@ export default ({ children, title }) => (
       <style jsx global>{`
       body {
         font-family: Orbitron, sans-serif;
-        background-color: #111;
+        background-color: #0D0007;
         color: white;
         margin:0;
       }
+      section {
+        padding: 2em;
+      }
+
+      @media only screen and (max-width: 1024px) {
+      }
+
+      @media only screen and (max-width: 900px) {
+      }
+
+      @media only screen and (max-width: 767px) {
+        #project li,
+        #project ul {
+          padding: 0;
+          margin: 0;
+        }
+        
+        footer {
+          font-size: 0.8em !important;
+        }
+      }
+
       `}</style>
     </div>
   </Fragment>

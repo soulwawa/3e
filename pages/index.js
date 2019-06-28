@@ -16,9 +16,6 @@ const Index = () => {
         </main>
       </section>
       <style jsx>{`
-        #intro {
-          padding:2em;
-        }
         section {
           height: 94vh;
           display:flex;
