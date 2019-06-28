@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
                     <meta charSet='utf-8' />
                     <mata name='robots' content='noindex, nofollow' />
                     <mata name='viewport' content='width=device-width' />
-                    <link rel="shortcut icon" href='/3e/static/favicon.png' />
+                    <link rel="shortcut icon" href='/static/favicon.png' />
                     <link
                         rel="stylesheet"
                         href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
