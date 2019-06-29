@@ -1,7 +1,5 @@
 # Mysite - (구) 블로그
 
-> https://mysite-3e.herokuapp.com
-
 ---
 
 Last Update: June, 2019
