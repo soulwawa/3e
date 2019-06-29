@@ -1,6 +1,6 @@
-# Mysite
+# Mysite - (구) 블로그
 
-> https://www.3es.me
+> https://mysite-3e.herokuapp.com
 
 ---
 
