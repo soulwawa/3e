@@ -70,6 +70,7 @@ export default ({ children, title }) => (
         background-color: #0D0007;
         color: white;
         margin:0;
+        font-display: fallback;
       }
       section {
         padding: 2em;
