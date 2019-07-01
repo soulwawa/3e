@@ -16,10 +16,7 @@ const Head = () => (
         <meta property="og:description" content="A site for my programming portfolio and 3e`s(KO SEOK MAN) resume" />
         <meta property="og:image" content="https://www.3es.me/static/favicon.ico" />
         <link rel='icon' href='/static/favicon.ico' />
-        <link
-            href="https://fonts.googleapis.com/css?family=Orbitron"
-            rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet" />
         <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
