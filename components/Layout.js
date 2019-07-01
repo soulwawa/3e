@@ -76,6 +76,12 @@ export default ({ children, title }) => (
         padding: 2em;
       }
 
+      @media only screen and (min-width: 1024px) {
+        #intro {
+          font-size:1.2em;
+        }
+      }
+
       @media only screen and (max-width: 1024px) {
       }
 
