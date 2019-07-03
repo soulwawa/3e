@@ -19,6 +19,13 @@ const About = ({ content }) => {
         #about img {
           height: 20em;
         }
+        #about a {
+          font-size: 2rem;
+          background: linear-gradient(to right, #fbcac9, #aaaaaa);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
         `}</style>
     </Layout>
   );
