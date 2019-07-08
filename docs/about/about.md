@@ -10,16 +10,21 @@ Last Update: June 26, 2019
 
 👋🏻 Hello, DevOps를 꿈꾸는 python-django 개발자입니다.
 
-늦은 나이지만 평소 관심이 많았던 개발자로 새로 시작한 1년 차 개발자입니다. JAVA 훈련 과정을 수료하였지만, 처음 입사한 디플랫폼에선 Python(django) 기술을 이용해 실무경험을 습득하게 되었습니다. 현재는 시스메이트라는 디지털 사이니지 회사에서 django 와 react를 이용해 웹 개발 실무를 쌓고 있습니다.
+늦은 나이지만 평소 관심이 많았던 개발자로 새로 시작한 1년 차 개발자입니다. JAVA 훈련 과정을 수료하였지만, 처음 입사한 회사에서 Python(django) 기술을 이용해 실무경험을 습득하게 되었습니다.
+
 워낙 늦게 시작한 개발이다 보니, 여러 기술에 흥미를 느끼고, 신기술을 스터디하는 것을 즐깁니다.
 django 웹 프레임워크로 웹 개발을 하며, 프론트엔드 개발에 관심을 생겨 react를 습득하는 중입니다.
+
 DevOps라는 큰 꿈을 지니고 있습니다.
+
+## ✉ Email : [soulwawa85@gmail.com](mailto:soulwawa85@gmail.com)
+## 📑 [이력서 다운로드, Resume](/static/about/_KO_SEOK_MAN.pdf)
 
 ---
 
 ## 👨🏻‍💻 Work **Experiences**
 
-**[2019.02 ~ current / 시스메이트 / 솔루션사업부 개발팀 / 사원](/project)**
+**[2019.02 ~ 2019.07 / 시스메이트 / 솔루션사업부 개발팀 / 사원](/projects)**
 
 - 디지털사이니지 웹 솔루션 개발
 
@@ -34,11 +39,11 @@ DevOps라는 큰 꿈을 지니고 있습니다.
   - Django Admin 커스텀 마이징을 통한 관리자 페이지 개발
   - javascript 를 이용한 길찾기 (SVG) 개발
 
-**[2018.06 ~ 2019.01 / (주)디플랫폼 / 개발팀 / 연구원](/project)**
+**[2018.06 ~ 2019.01 / 디플랫폼 / 개발팀 / 연구원](/projects)**
 
 - CTI 정보보안 데이터 웹 플랫폼 구축
 
-  - https://www.malinfo.co.kr
+  - [https://www.malinfo.co.kr](https://www.malinfo.co.kr)
   - Python ( django ) 을 이용한 백엔드 개발
   - MongoDB, Neo4j, PostgreSQL를 이용한 데이터베이스 개발
   - 사이버 위협 정보 수집 시스템 운영 ( 리눅스 )

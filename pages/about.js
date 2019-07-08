@@ -1,13 +1,19 @@
 import Link from 'next/link'
 import Layout from '../components/Layout';
-import ReactMarkdown from 'react-markdown'
+import ReactMarkdown from 'react-markdown';
+import { withRouter } from 'next/router'
 
 const About = ({ content }) => {
   return (
     <Layout>
       <section id="about">
         <main>
-          <ReactMarkdown source={content.default} />
+          <ReactMarkdown source={content.default}
+          renderers={{link:props => 
+          props.href === 'https://www.malinfo.co.kr' || props.href === 'mailto:soulwawa85@gmail.com' ?
+          <a href={props.href} target="_blank">{props.children}</a> :
+          <Link href={props.href}><a>{props.children}</a></Link>}}
+          />
         </main>
       </section>
       <style jsx global>{`
@@ -36,4 +42,4 @@ About.getInitialProps = async ({ req }) => {
   return { content }
 };
 
-export default About;
+export default withRouter(About);
