@@ -2,7 +2,7 @@
 
 ---
 
-Last Update: June 26, 2019
+Last Update: Aug 1, 2019
 
 ---
 
@@ -15,16 +15,20 @@ Last Update: June 26, 2019
 워낙 늦게 시작한 개발이다 보니, 여러 기술에 흥미를 느끼고, 신기술을 스터디하는 것을 즐깁니다.
 django 웹 프레임워크로 웹 개발을 하며, 프론트엔드 개발에 관심을 생겨 react를 습득하는 중입니다.
 
-DevOps라는 큰 꿈을 지니고 있습니다.
+DevOps라는 큰 꿈을 지니고 있습니다. 🙏
 
 ## ✉ Email : [soulwawa85@gmail.com](mailto:soulwawa85@gmail.com)
-## 📑 [이력서 다운로드, Resume](/static/about/_KO_SEOK_MAN.pdf)
 
 ---
 
 ## 👨🏻‍💻 Work **Experiences**
+**[📃 2019.02 ~  / 알고랩 / 개발팀 ](/projects)**
+- 라스트마일 물류 웹서비스 개발
+    - [https://algoquick.com/](https://algoquick.com/)
+    - Python ( django ) 을 이용한 Rest API, GraphQL 개발
+    - React 를 이용한 관리자 페이지 개발
 
-**[2019.02 ~ 2019.07 / 시스메이트 / 솔루션사업부 개발팀 / 사원](/projects)**
+**[📃 2019.02 ~ 2019.07 / 시스메이트 / 솔루션사업부 개발팀 / 사원](/projects)**
 
 - 디지털사이니지 웹 솔루션 개발
 
@@ -39,7 +43,7 @@ DevOps라는 큰 꿈을 지니고 있습니다.
   - Django Admin 커스텀 마이징을 통한 관리자 페이지 개발
   - javascript 를 이용한 길찾기 (SVG) 개발
 
-**[2018.06 ~ 2019.01 / 디플랫폼 / 개발팀 / 연구원](/projects)**
+**[📃 2018.06 ~ 2019.01 / 디플랫폼 / 개발팀 / 연구원](/projects)**
 
 - CTI 정보보안 데이터 웹 플랫폼 구축
 
