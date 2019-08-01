@@ -66,7 +66,7 @@ export default ({ children, title }) => (
         `}</style>
       <style jsx global>{`
       body {
-        font-family: 'Noto Sans KR', sans-serif;
+        font-family: 'Orbitron', sans-serif;
         background-color: #0D0007;
         color: white;
         margin:0;
