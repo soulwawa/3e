@@ -22,7 +22,7 @@ DevOps라는 큰 꿈을 지니고 있습니다. 🙏
 ---
 
 ## 👨🏻‍💻 Work **Experiences**
-**[📃 2019.02 ~  / 알고랩 / 개발팀 ](/projects)**
+**[📃 2019.07 ~  / 알고랩 / 개발팀 ](/projects)**
 - 라스트마일 물류 웹서비스 개발
     - [https://algoquick.com/](https://algoquick.com/)
     - Python ( django ) 을 이용한 Rest API, GraphQL 개발
