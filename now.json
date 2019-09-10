@@ -2,5 +2,5 @@
   "version": 2,
   "name": "3e",
   "builds": [{ "src": "next.config.js", "use": "@now/next" }],
-  "alias": ["www.3es.dev"]
+  "alias": ["www.3es.me"]
 }
