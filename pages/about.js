@@ -27,6 +27,9 @@ const About = ({ content }) => {
 				</main>
 			</section>
 			<style jsx global>{`
+				#about {
+					margin: 0 10rem;
+				}
 				#about p:nth-child(5) {
 					display: flex;
 					justify-content: center;

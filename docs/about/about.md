@@ -2,14 +2,16 @@
 
 ---
 
-Last Update: Feb, 2020
+Last Update: Jan, 2020
 
 ---
 
 ![](/static/about/3e.jpeg)
 
 👋🏻 Hello,DevOps를 꿈꾸는 React를 좋아하는 python django 개발자입니다!
+
 django의 매력에 빠져 백엔드 개발로 시작하였지만, 여러 기술에 흥미를 느끼는 성격상, 신기술을 스터디하는 것을 즐깁니다.
+
 Python과 React를 주로 사용하고 있고, DevOps라는 큰 꿈을 지니고 있습니다. 🙏
 
 ## ✉ Email : [soulwawa85@gmail.com](mailto:soulwawa85@gmail.com)
