@@ -7,7 +7,7 @@
 		"start": "next start",
 		"export": "next export",
 		"invalidate": "aws cloudfront create-invalidation --profile=3e --distribution-id E3V33RIG7743K4 --paths / /index.html /error.html /service-worker.js /manifest.json /favicon.ico",
-		"deploy": "next build && yarn export && aws s3 sync ./out s3://3es.dev --profile=3e --acl public-read && yarn invalidate"
+		"deploy": "next build && yarn export && aws s3 sync ./out s3://www.3es.dev --profile=3e --acl public-read && yarn invalidate"
 	},
 	"dependencies": {
 		"marked": "^0.6.2",
