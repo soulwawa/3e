@@ -1,23 +1,22 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
-// import flush from 'styled-jsx/server'
+import Document, { Html, Head, Main, NextScript } from "next/document";
 
-export default class MyDocument extends Document {
-    // static getInitialProps({ renderPage }) {
-    //     const { html, head } = renderPage();
-    //     const styles = flush();
+class MyDocument extends Document {
+	static async getInitialProps(ctx) {
+		const initialProps = await Document.getInitialProps(ctx);
+		return { ...initialProps };
+	}
 
-    //     return { html, head, styles };
-    // }
-
-    render() {
-        return (
-            <Html lang='ko'>
-                <Head />
-                <body>
-                    <Main />
-                    <NextScript />
-                </body>
-            </Html>
-        )
-    }
+	render() {
+		return (
+			<Html>
+				<Head />
+				<body>
+					<Main />
+					<NextScript />
+				</body>
+			</Html>
+		);
+	}
 }
+
+export default MyDocument;
