@@ -16,7 +16,6 @@ const Index = () => {
 					<p>
 						I want to be a full-stack developer. I am also interested in DevOps{" "}
 					</p>
-					{/* <p>Let's <a href="http://www.3es.me/project/">PROJECT</a></p> */}
 					<p>
 						learn more{" "}
 						<Link href="/about">
