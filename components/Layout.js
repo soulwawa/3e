@@ -1,24 +1,24 @@
-import Link from "next/link";
-import React, { Fragment } from "react";
-import Router from "next/router";
-import MyHead from "./Head";
-import { NextSeo } from "next-seo";
+import Link from 'next/link';
+import React, { Fragment } from 'react';
+import Router from 'next/router';
+import MyHead from './Head';
+import { NextSeo } from 'next-seo';
 
 export default ({ children, title }) => (
 	<div>
 		<MyHead />
 		<NextSeo
 			openGraph={{
-				type: "website",
-				url: "https://www.3es.dev",
-				title: "3E:KOSEOMAN",
+				type: 'website',
+				url: 'https://www.3es.dev',
+				title: '3E:KOSEOMAN',
 				description:
-					"A site for my programming portfolio and 3e`s(KO SEOK MAN) resume",
+					'A site for my programming portfolio and 3e`s(KO SEOK MAN) resume',
 				images: [
 					{
-						url: "https://www.3es.dev/static/favicon.ico",
-					},
-				],
+						url: 'https://www.3es.dev/static/favicon.ico'
+					}
+				]
 			}}
 		/>
 		<meta name="robots" content="noindex,follow" />
@@ -82,7 +82,7 @@ export default ({ children, title }) => (
 			`}</style>
 			<style jsx global>{`
 				body {
-					font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
+					font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
 					background-color: black;
 					color: white;
 					margin: 0;
@@ -104,12 +104,6 @@ export default ({ children, title }) => (
 				}
 
 				@media only screen and (max-width: 767px) {
-					#project li,
-					#project ul {
-						padding: 0;
-						margin: 0;
-					}
-
 					footer {
 						font-size: 0.8em !important;
 					}

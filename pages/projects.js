@@ -1,8 +1,8 @@
-import Link from "next/link";
-import Layout from "../components/Layout";
-import ReactMarkdown, { renderers } from "react-markdown";
-import { withRouter } from "next/router";
-import ProjectSummary from "../components/ProjectSummary";
+import Link from 'next/link';
+import Layout from '../components/Layout';
+import ReactMarkdown, { renderers } from 'react-markdown';
+import { withRouter } from 'next/router';
+import ProjectSummary from '../components/ProjectSummary';
 
 const Project = props => {
 	const title = ProjectSummary[props.title].title;
@@ -52,7 +52,7 @@ const Projects = () => {
 	));
 	return (
 		<Layout>
-			<section id="project">
+			<section id="projects">
 				<main>
 					<div>
 						<h1>Project List</h1>
@@ -60,7 +60,7 @@ const Projects = () => {
 					</div>
 				</main>
 			</section>
-			<style jsx>
+			<style jsx global>
 				{`
 					h1 {
 						font-style: italic;
@@ -69,6 +69,16 @@ const Projects = () => {
 					}
 					ul {
 						list-style-type: none;
+					}
+					@media only screen and (max-width: 767px) {
+						#projects {
+							margin: 0;
+						}
+						#projects li,
+						#projects ul {
+							padding: 0;
+							margin: 0;
+						}
 					}
 				`}
 			</style>

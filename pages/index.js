@@ -1,5 +1,5 @@
-import Link from "next/link";
-import Layout from "../components/Layout";
+import Link from 'next/link';
+import Layout from '../components/Layout';
 
 const Index = () => {
 	return (
@@ -10,25 +10,25 @@ const Index = () => {
 						I'm <span className="name">Seokman Ko</span>
 					</h1>
 					<p>
-						I'm a Seoul, South Korea based <span>Python developer</span> and{" "}
-						<span>web developer</span>{" "}
+						I'm a Seoul, South Korea based <span>Python developer</span> and{' '}
+						<span>web developer</span>{' '}
 					</p>
 					<p>
-						I want to be a full-stack developer. I am also interested in DevOps{" "}
+						I want to be a full-stack developer. I am also interested in DevOps{' '}
 					</p>
 					<p>
-						learn more{" "}
+						learn more{' '}
 						<Link href="/about">
 							<a>About,</a>
-						</Link>{" "}
+						</Link>{' '}
 						<Link href="/projects">
 							<a>projects</a>
 						</Link>
 					</p>
 					<p>
-						The best ways to contact me are{" "}
+						The best ways to contact me are{' '}
 						<a href="mailto:soulwawa85@gmail.com">Mail</a> and
-						<a href="https://www.facebook.com/soulwawa"> Facebook</a> and{" "}
+						<a href="https://www.facebook.com/soulwawa"> Facebook</a> and{' '}
 						<a href="https://github.com/soulwawa">Github</a>
 					</p>
 				</main>
@@ -47,6 +47,11 @@ const Index = () => {
 					background-clip: text;
 					-webkit-background-clip: text;
 					-webkit-text-fill-color: transparent;
+				}
+				@media only screen and (max-width: 767px) {
+					#intro {
+						font-size: 0.9rem;
+					}
 				}
 			`}</style>
 		</Layout>

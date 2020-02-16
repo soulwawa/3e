@@ -1,7 +1,7 @@
-import Layout from "../components/Layout";
-import { withRouter } from "next/router";
-import ReactMarkdown from "react-markdown";
-import ProjectSummary from "../components/ProjectSummary";
+import Layout from '../components/Layout';
+import { withRouter } from 'next/router';
+import ReactMarkdown from 'react-markdown';
+import ProjectSummary from '../components/ProjectSummary';
 
 const Project = props => {
 	const content = props.content.default;
@@ -50,7 +50,7 @@ Project.getInitialProps = async ({ query, props, res }) => {
 	const title = query.title;
 	if (docsList.indexOf(title) < 0) {
 		res.writeHead(302, {
-			Location: "/projects",
+			Location: '/projects'
 		});
 		res.end();
 	}

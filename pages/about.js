@@ -1,7 +1,7 @@
-import Link from "next/link";
-import Layout from "../components/Layout";
-import ReactMarkdown from "react-markdown";
-import { withRouter } from "next/router";
+import Link from 'next/link';
+import Layout from '../components/Layout';
+import ReactMarkdown from 'react-markdown';
+import { withRouter } from 'next/router';
 
 const About = ({ content }) => {
 	return (
@@ -12,8 +12,8 @@ const About = ({ content }) => {
 						source={content.default}
 						renderers={{
 							link: props =>
-								props.href === "https://www.malinfo.co.kr" ||
-								props.href === "mailto:soulwawa85@gmail.com" ? (
+								props.href === '//www.algoquick.com' ||
+								props.href === 'mailto:soulwawa85@gmail.com' ? (
 									<a href={props.href} target="_blank">
 										{props.children}
 									</a>
@@ -21,7 +21,7 @@ const About = ({ content }) => {
 									<Link href={props.href}>
 										<a>{props.children}</a>
 									</Link>
-								),
+								)
 						}}
 					/>
 				</main>
@@ -47,6 +47,14 @@ const About = ({ content }) => {
 				}
 				#about h1 {
 					font-style: italic;
+				}
+				@media only screen and (max-width: 767px) {
+					body {
+						font-size: 0.75rem;
+					}
+					#about {
+						margin: 0;
+					}
 				}
 			`}</style>
 		</Layout>
