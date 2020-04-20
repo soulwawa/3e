@@ -4,7 +4,7 @@
 
 ---
 
-Last Update: Jan, 2020
+Last Update: Feb, 2020
 
 ---
 
@@ -16,7 +16,9 @@ Last Update: Jan, 2020
 
 ## **개발기술**
 
-> **Backend : Python-django, PostGreSQL, Hasura(GraphQL), AWS (EC2, RDS, CodePipeline, S3, Elasticsearch Service), ELK**
+> **Backend : Python-django, PostGreSQL, Hasura(GraphQL)**
+
+> **operation: AWS EC2(docker), RDS(Postgresql), CodePipeline, S3, CloudFront, Elasticsearch**
 
 > **Frontend: Vue, React**
 
@@ -31,5 +33,7 @@ Last Update: Jan, 2020
 > Sanic, Peewee 를 이용한 마이크로서비스 개발
 
 > Hasura를 활용한 GraphQL 개발
+
+> AWS 운영 관리 EC2(docker), RDS(Postgresql), CodePipeline, S3, CloudFront, Elasticsearch
 
 ---

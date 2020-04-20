@@ -2,7 +2,7 @@
 
 ---
 
-Last Update: Jan, 2020
+Last Update: Feb, 2020
 
 ---
 
@@ -13,6 +13,8 @@ Last Update: Jan, 2020
 django의 매력에 빠져 백엔드 개발로 시작하였지만, 여러 기술에 흥미를 느끼는 성격상, 신기술을 스터디하는 것을 즐깁니다.
 
 Python과 React를 주로 사용하고 있고, DevOps라는 큰 꿈을 지니고 있습니다. 🙏
+ 
+최근 관심사로는 주로 사용하는 언어가 동적 타입 언어이다 보니, python은 타입 체킹을, javascript는 typescript의 전환을 위해 공부 중입니다.
 
 ## ✉ Email : [soulwawa85@gmail.com](mailto:soulwawa85@gmail.com)
 
@@ -27,7 +29,8 @@ Python과 React를 주로 사용하고 있고, DevOps라는 큰 꿈을 지니고
   - Python ( django ) 을 이용한 Rest API, GraphQL 개발
   - Vue, React 를 이용한 웹, 관리자 페이지 개발
   - Sanic, Peewee 를 이용한 마이크로서비스 개발
-  - AWS 운영 관리 (EC2, RDS, CodePipeline, S3, Elasticsearch Service)
+  - Hasura를 활용한 GraphQL 개발
+  - AWS 운영 관리 EC2(docker), RDS(Postgresql), CodePipeline, S3, CloudFront, Elasticsearch
 
 **[📃 2019.02 ~ 2019.07 / 시스메이트 / 솔루션사업부 개발팀 / 사원](/projects)**
 
