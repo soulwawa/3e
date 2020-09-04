@@ -10,7 +10,7 @@
 		"deploy": "next build && yarn export && aws s3 sync ./out s3://www.3es.dev --profile=3e --acl public-read && yarn invalidate"
 	},
 	"dependencies": {
-		"marked": "^0.6.2",
+		"marked": "^0.7.0",
 		"next": "^9.3.2",
 		"next-seo": "^3.2.0",
 		"raw-loader": "^3.0.0",
