@@ -1,27 +1,39 @@
 {
-	"name": "3e",
-	"version": "1.0.0",
-	"scripts": {
-		"dev": "next",
-		"build": "rm -rf out/ && next build",
-		"start": "next start",
-		"export": "next export",
-		"invalidate": "aws cloudfront create-invalidation --profile=3e --distribution-id E3V33RIG7743K4 --paths / /index.html /error.html /service-worker.js /manifest.json /favicon.ico",
-		"deploy": "next build && yarn export && aws s3 sync ./out s3://www.3es.dev --profile=3e --acl public-read && yarn invalidate"
-	},
-	"dependencies": {
-		"marked": "^0.6.2",
-		"next": "^9.3.2",
-		"next-seo": "^3.2.0",
-		"raw-loader": "^3.0.0",
-		"react": "^16.8.6",
-		"react-dom": "^16.8.6",
-		"react-markdown": "^4.1.0",
-		"styled-jsx": "^3.2.1"
-	},
-	"license": "ISC",
-	"devDependencies": {
-		"@babel/runtime-corejs2": "^7.9.2",
-		"babel-plugin-transform-define": "^1.3.0"
-	}
+  "name": "3es-about",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "gray-matter": "^4.0.2",
+    "next": "latest",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.12",
+    "@types/react": "16.8.23",
+    "@types/react-dom": "16.8.4",
+    "@types/styled-components": "5.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "babel-plugin-styled-components": "^1.10.0",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.2",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  },
+  "license": "ISC"
 }
