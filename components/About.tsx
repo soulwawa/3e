@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import device from "../lib/device";
 
 const AboutContainer = styled.section`
   text-align: center;
@@ -30,8 +31,17 @@ const H1 = styled.h1`
   font-weight: 200;
   margin-bottom: 1.5rem;
   line-height: 2.8rem;
-  word-break: break-word;
+  word-break: keep-all;
   text-align: left;
+
+  @media ${device.laptop} {
+    font-size: 1.5rem;
+  }
+
+  @media ${device.mobileL} {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
 `;
 
 const Strong = styled.strong`
@@ -55,7 +65,6 @@ const Icon = styled(FontAwesomeIcon)`
   width: 2rem;
 `;
 
-// TODO: 수정
 const A = styled.a`
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);

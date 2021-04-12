@@ -12,6 +12,7 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import Footer from "../../components/Footer";
 import NavLink from "../../components/NavLink";
+import device from "../../lib/device";
 
 type TSkill = {
   backend: string;
@@ -36,6 +37,10 @@ type Props = {
 const Container = styled.div`
   max-width: 68rem;
   margin: 10rem auto;
+  
+  @media ${device.laptop} {
+    margin: 5rem 1.5rem;
+  }
 `;
 
 const Title = styled.h1`

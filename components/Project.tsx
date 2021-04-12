@@ -3,6 +3,7 @@ import React from "react";
 import Link from 'next/link'
 import {Divider1x} from "./common";
 import ProjectListData, { TProjectListData }  from "../data/projectList";
+import device from "../lib/device";
 
 const ProjectContainer = styled.section`
   text-align: center;
@@ -30,6 +31,10 @@ const StyledProjectItem = styled.div`
   color: white;
   cursor: pointer;
   box-shadow: 2px 2px;
+  
+  @media ${device.mobileL} {
+    margin: 0.5rem;
+  }
 `;
 
 const StyledProjectItemTitle = styled.h3`
