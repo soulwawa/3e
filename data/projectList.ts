@@ -16,7 +16,7 @@ export default [
     slug: "algolab",
     title: "알고랩",
     summary: "라스트마일 물류 웹서비스 개발",
-    period: "2019.07 - 진행중",
+    period: "2019.07 - 2020.10",
   },
   {
     slug: "sysWebbuilder",
