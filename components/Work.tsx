@@ -75,7 +75,7 @@ export default function Work() {
       <Title>👨🏻‍💻 Work Experiences</Title>
       {/*놀이의발견*/}
       <Divider1x/>
-      <WorkTitle>[📃 2020.10 ~ / 놀이의발견 / IT 개발팀 ]</WorkTitle>
+      <WorkTitle>[📃 2020.10 ~ / 놀이의발견 / 백엔드2파트 파트장]</WorkTitle>
       <WorkDescriptionContainer>
         <WorkDescriptionTitle>
           ▶️ O2O 키즈플랫폼
@@ -89,7 +89,9 @@ export default function Work() {
       <Divider1x/>
       <WorkDescriptionDetail>
         {`
+          - 백엔드2파트 ( 사장님, CRM, 정산, DevOps ) 매니지먼트
           - O2O플랫폼 전사 Admin 개발 (Python / Django, React)
+          - O2O플랫폼 사장님 페이지 개발 (Python / Django, React)
           - AWS운영관리 : EC2(docker), RDS(MySQL), APM
           `}
       </WorkDescriptionDetail>
