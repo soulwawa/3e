@@ -75,7 +75,7 @@ export default function Work() {
       <Title>👨🏻‍💻 Work Experiences</Title>
       {/*놀이의발견*/}
       <Divider1x/>
-      <WorkTitle>[📃 2020.10 ~ / 놀이의발견 / 백엔드2파트 파트장]</WorkTitle>
+      <WorkTitle>[📃 2020.10 ~ / 놀이의발견 / 백엔드파트 파트장]</WorkTitle>
       <WorkDescriptionContainer>
         <WorkDescriptionTitle>
           ▶️ O2O 키즈플랫폼
@@ -88,11 +88,24 @@ export default function Work() {
       </WorkDescriptionContainer>
       <Divider1x/>
       <WorkDescriptionDetail>
-        {`
-          - 백엔드2파트 ( 사장님, CRM, 정산, DevOps ) 매니지먼트
-          - O2O플랫폼 전사 Admin 개발 (Python / Django, React)
-          - O2O플랫폼 사장님 페이지 개발 (Python / Django, React)
-          - AWS운영관리 : EC2(docker), RDS(MySQL), APM
+        {`[O2O 키즈 플랫폼 플랫폼실 백엔드파트 매니지먼트]
+          - 2021.12 ~ : O2O 키즈플랫폼 플랫폼실 백엔드파트 매니지먼트
+          - 2021.06 ~ 2021.12 : O2O 키즈플랫폼 플랫폼실 백엔드2파트(CRM, 사장님, 정산, DevOps) 매니지먼트
+          
+          [O2O 키즈 플랫폼 데이터 엔지니어]
+          - 마케팅 성과측정 데이터 파이프라인 개발
+          - 퍼널 분석용 RAW 데이터 수집 가공 가시화
+          - 전사 BI (AWS Quicksight) 전사 대시보드 개선
+          - 아이나이, 지역기반 추천 모델 개발
+          
+          [놀이의발견 CRM / O2O 키즈플랫폼 전사 관리자]
+          - O20 키즈플랫폼 CRM, 전사 관리자 개발
+          - React / Python django REST API 웹 서비스
+          - 기존 서비스 유지보수 및 Admin Tool 개발
+          - 기존 jquery기반 레거시 프로젝트를 React기반으로 마이그레이션
+          - 컨테이너 기반 빌드/배포 자동화 시스템 구축 참여
+          - 코드레벨 최적화 및 리팩토링 다수 수행
+          - 운영 환경 : AWS ( EC2, RDS, APM)
           `}
       </WorkDescriptionDetail>
       <Divider1x/>
@@ -112,8 +125,7 @@ export default function Work() {
       </WorkDescriptionContainer>
       <Divider1x/>
       <WorkDescriptionDetail>
-        {`
-          - Python ( Django ) 을 이용한 Rest API, GraphQL 개발
+        {`- Python ( Django ) 을 이용한 Rest API, GraphQL 개발
           - Vue, React 를 이용한 웹, 관리자 페이지 개발
           - Sanic, Peewee 를 이용한 마이크로서비스 개발
           - Hasura, Graphene-Django 를 활용한 GraphQL 개발
@@ -139,8 +151,8 @@ export default function Work() {
       </WorkDescriptionContainer>
       <Divider1x/>
       <WorkDescriptionDetail>
-        - 디지털 사이니지 를 이용한 웹 빌더 개발 ( Django, React )
-        {`- 디지털 사이니지를 이용한 맞춤형 웹개발
+        {`- 디지털 사이니지 를 이용한 웹 빌더 개발 ( Django, React )
+          - 디지털 사이니지를 이용한 맞춤형 웹개발
           - Python ( Django ) 을 이용한 웹 개발
           - Django Admin 커스텀 마이징을 통한 관리자 페이지 개발 
           - javascript 를 이용한 길찾기 (SVG) 개발
