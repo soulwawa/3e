@@ -77,15 +77,11 @@ export default function About() {
         <AvatarImage src="/static/about/3e.jpeg" alt="profile" />
       </Avatar>
       <H1>
-        👋🏻 Hello, DevOps를 꿈꾸는{" "}
-        <Strong>React를 좋아하는 python Django 개발자입니다!</Strong>
-        <br />
-        Django의 매력에 빠져 백엔드 개발로 시작하였지만, 여러 기술에 흥미를
-        느끼는 성격상, 신기술을 스터디하는 것을 즐깁니다. <br />
-        Python과 React를 주로 사용하고 있고, DevOps라는 큰 꿈을 지니고 있습니다.
-        <br />
-        최근 관심사로는 주로 사용하는 언어가 동적 타입 언어이다 보니, python은
-        타입 체킹을, javascript는 typescript의 적용을 위해 공부 중입니다.
+        👋🏻 4년차 개발자로 스타트업에서 주로 풀스택 개발을 담당하였습니다.
+        <br/>
+        20명정도 되는 개발조직 안에 9명으로 구성된 백엔드파트를 책임진 경험이 있습니다.
+        <br/><br/>
+        <Strong>회사의 성장에 기여하는 것 매우 흥미롭게 생각하며, 비효율적이고 반복되는 업무를 개선하는걸 좋아합니다.</Strong>
       </H1>
       <ul>
         <IconList>
