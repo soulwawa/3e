@@ -12,7 +12,7 @@ const WorkContainer = styled.section`
 
 const Title = styled.h1`
   font-size: 1.8rem;
-  color: white;
+  color: black;
   margin-bottom: 1.5rem;
   text-align: left;
   font-weight: bold;
@@ -20,7 +20,6 @@ const Title = styled.h1`
 
 const WorkTitle = styled.h2`
   font-size: 1.2rem;
-  color: rgba(255, 255, 255, 0.8);
   margin-bottom: 1.5rem;
   text-align: left;
   font-weight: bold;
@@ -38,7 +37,6 @@ const WorkDescriptionContainer = styled.div`
 const WorkDescriptionTitle = styled.div`
   display: flex;
   font-size: 1.1rem;
-  color: rgba(255, 255, 255, 0.7);
 
   @media ${device.mobileL} {
     font-size: 1rem;
@@ -48,7 +46,6 @@ const WorkDescriptionTitle = styled.div`
 
 const WorkDescriptionDetail = styled.p`
   text-align: start;
-  color: rgba(255, 255, 255, 0.6);
   line-height: 1.6rem;
   white-space: pre-line;
   word-break: keep-all;
@@ -62,7 +59,6 @@ const EduPrizeTitle = styled.div`
   text-align: start;
   font-size: 1.1rem;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
 
   @media ${device.mobileL} {
     font-size: 1rem;

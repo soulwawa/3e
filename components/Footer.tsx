@@ -8,7 +8,6 @@ const StyledFooter = styled.footer`
   display: flex;
   justify-content: space-around;
   font-size: 1.2rem;
-  color: rgba(255, 255, 255, 0.5);
   padding: 1rem 0;
 `;
 

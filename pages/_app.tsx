@@ -56,8 +56,6 @@ table {
 }
 
 body{
-  background-image: url("/static/images/bg.jpg");
-  background-size:cover;
   font-family: 'Noto Sans KR', sans-serif;
 }
 `

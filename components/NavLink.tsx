@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 
 const StyledLink = styled.a`
-  color: white;
+  color: black;
   font-weight: bolder;
   font-style: italic;
   text-decoration: none;

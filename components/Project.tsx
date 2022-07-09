@@ -13,7 +13,7 @@ const ProjectContainer = styled.section`
 
 const Title = styled.h1`
   font-size: 1.8rem;
-  color: white;
+  color: black;
   margin-bottom: 1.5rem;
   text-align: left;
   font-weight: bold;
@@ -25,12 +25,12 @@ const ProjectGrid = styled.div`
 `;
 
 const StyledProjectItem = styled.div`
-  border: 2px solid lightgray;
+  border: 1.5px solid black;
   margin: 1rem;
   padding: 1rem;
-  color: white;
+  color: black;
   cursor: pointer;
-  box-shadow: 2px 2px;
+  box-shadow: 1px 1px;
   
   @media ${device.mobileL} {
     margin: 0.5rem;
@@ -42,13 +42,11 @@ const StyledProjectItemTitle = styled.h3`
 `;
 
 const StyledProjectItemDetail = styled.p`
-  color: rgba(255, 255, 255, 0.8);
 `;
 
 const StyledProjectItemPeriod= styled.small`
   font-size: 0.8rem;
   font-style: italic;
-  color: rgba(255, 255, 255, 0.8);
 `;
 
 const ProjectItem = ({title, period, summary, slug}:TProjectListData) => {

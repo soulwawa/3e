@@ -14,8 +14,8 @@ const Avatar = styled.span`
   border-radius: 100%;
   display: inline-block;
   padding: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.25);
   margin: 2rem 0;
 `;
 
@@ -27,7 +27,6 @@ const AvatarImage = styled.img`
 
 const H1 = styled.h1`
   font-size: 1.8rem;
-  color: rgba(255, 255, 255, 0.5);
   font-weight: 200;
   margin-bottom: 1.5rem;
   line-height: 2.8rem;
@@ -44,15 +43,10 @@ const H1 = styled.h1`
   }
 `;
 
-const Strong = styled.strong`
-  color: white;
-  font-weight: 200;
-`;
-
 const IconList = styled.li`
   border-radius: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.05);
   width: 3rem;
   height: 3rem;
   display: inline-flex;
@@ -67,7 +61,7 @@ const Icon = styled(FontAwesomeIcon)`
 
 const A = styled.a`
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.5);
+  color: black;
 `;
 
 export default function About() {
@@ -81,7 +75,7 @@ export default function About() {
         <br/>
         20명정도 되는 개발조직 안에 9명으로 구성된 백엔드파트를 책임진 경험이 있습니다.
         <br/><br/>
-        <Strong>회사의 성장에 기여하는 것 매우 흥미롭게 생각하며, 비효율적이고 반복되는 업무를 개선하는걸 좋아합니다.</Strong>
+        회사의 성장에 기여하는 것 매우 흥미롭게 생각하며, 비효율적이고 반복되는 업무를 개선하는걸 좋아합니다.
       </H1>
       <ul>
         <IconList>

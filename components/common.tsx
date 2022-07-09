@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const LineDivider = styled.hr`
-  size: 1rem;
-  color: lightcyan;
+  border: 2px solid black;
 `;
 
 export const LightLineDivider = styled(LineDivider)`
+  border: 1px solid black;
   opacity: 0.2;
 `;
 

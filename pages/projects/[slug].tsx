@@ -45,27 +45,24 @@ const Container = styled.div`
 
 const Title = styled.h1`
   font-size: 1.8rem;
-  color: white;
+  color: black;
   margin-bottom: 1.5rem;
   text-align: left;
   font-weight: bold;
 `;
 
 const Period = styled.div`
-  color: white;
+  color: black;
   font-size: 1.2rem;
   font-style: italic;
-  color: rgba(255, 255, 255, 0.8);
 `;
 
 const SkillTitle = styled.div`
   font-size: 1.5rem;
-  color: rgba(255, 255, 255, 0.7);
 `;
 
 const Skill = styled.div`
   text-align: start;
-  color: rgba(255, 255, 255, 0.6);
   line-height: 2.5rem;
 `;
 
