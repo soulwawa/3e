@@ -1,6 +1,6 @@
 ---
 title: 'O2O 키즈플랫폼 전사 Admin 개발'
-period: '2020.10 - 진행중'
+period: '2020.10 - 2022.06'
 skill:
     backend : Python-Django
     frontend: React    

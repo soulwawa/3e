@@ -71,7 +71,7 @@ export default function About() {
         <AvatarImage src="/static/about/3e.jpeg" alt="profile" />
       </Avatar>
       <H1>
-        👋🏻 4년차 개발자로 스타트업에서 주로 풀스택 개발을 담당하였습니다.
+        👋🏻 5년차 개발자로 스타트업에서 주로 풀스택 개발을 담당하였습니다.
         <br/>
         20명정도 되는 개발조직 안에 9명으로 구성된 백엔드파트를 책임진 경험이 있습니다.
         <br/><br/>
