@@ -1,9 +1,8 @@
 import React from "react";
-import App from 'next/app'
-import { createGlobalStyle } from 'styled-components'
-import * as gtag from '../lib/gtag';
-import {Router} from "next/router";
-
+import App from "next/app";
+import { createGlobalStyle } from "styled-components";
+import { Router } from "next/router";
+import Script from "next/script";
 
 const Global = createGlobalStyle`
 html, body, div, span, applet, object, iframe,
@@ -58,19 +57,30 @@ table {
 body{
   font-family: 'Noto Sans KR', sans-serif;
 }
-`
-
-Router.events.on('routeChangeComplete', url => gtag.pageview(url));
+`;
 
 export default class MyApp extends App {
-  render () {
-    const { Component, pageProps } = this.props
+  render() {
+    const { Component, pageProps } = this.props;
 
     return (
       <>
-        <Global/>
+        {/* Global site tag (gtag.js) - Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-1FRS4SX1ET"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-1FRS4SX1ET');
+            `}
+        </Script>
+        <Global />
         <Component {...pageProps} />
       </>
-    )
+    );
   }
 }

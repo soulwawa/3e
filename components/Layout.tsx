@@ -1,6 +1,5 @@
 import React, { ReactNode } from "react";
 import Head from "next/head";
-import { GA_TRACKING_ID } from "../lib/gtag";
 
 type Props = {
   children?: ReactNode;
@@ -33,24 +32,6 @@ function Layout({ children, title = "3ES::KOSEOKMAN" }: Props) {
         <meta
           property="og:image"
           content="https://www.3es.dev/static/favicon.ico"
-        />
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            if(window.location.hostname !== 'localhost') {
-              gtag('js', new Date());
-              gtag('config', '${GA_TRACKING_ID}', {
-                page_path: window.location.pathname,
-              });
-            }
-          `,
-          }}
         />
       </Head>
       {children}
