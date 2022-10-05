@@ -68,6 +68,21 @@ export default function Work() {
   return (
     <WorkContainer>
       <Title>👨🏻‍💻 Work Experiences</Title>
+      {/*바로팜*/}
+      <Divider1x/>
+      <WorkTitle>[📃 2022.08 ~  / 바로팜 / 백엔드 엔지니어]</WorkTitle>
+      <WorkDescriptionContainer>
+        <WorkDescriptionTitle>▶️ 의약품 주문 통합 플랫폼 백엔드 엔지니어</WorkDescriptionTitle>
+      </WorkDescriptionContainer>
+      <Divider1x/>
+      <WorkDescriptionDetail>
+        {
+          `- 바로팜 Restful API 설계 및 개발
+           - 파트너, CMS 페이지 개발`
+        }
+      </WorkDescriptionDetail>
+      <Divider1x/>
+      <LightLineDivider/>
       {/*라이픽*/}
       <Divider1x/>
       <WorkTitle>[📃 2022.06 ~  / 라이픽 / 테크챕터 검색&데이터 파트 / 데이터 엔지니어]</WorkTitle>
