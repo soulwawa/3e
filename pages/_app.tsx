@@ -1,7 +1,6 @@
 import React from "react";
 import App from "next/app";
 import { createGlobalStyle } from "styled-components";
-import { Router } from "next/router";
 import Script from "next/script";
 
 const Global = createGlobalStyle`
