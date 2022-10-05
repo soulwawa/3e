@@ -87,7 +87,7 @@ export default function Work() {
       <Divider1x/>
       <WorkTitle>[📃 2022.06 ~  / 라이픽 / 테크챕터 검색&데이터 파트 / 데이터 엔지니어]</WorkTitle>
       <WorkDescriptionContainer>
-        <WorkDescriptionTitle>▶️ O2O 키즈플랫폼</WorkDescriptionTitle>
+        <WorkDescriptionTitle>▶️ 올인원 QOL(Quality of Life) 플랫폼</WorkDescriptionTitle>
       </WorkDescriptionContainer>
       <Divider1x/>
       <WorkDescriptionDetail>
