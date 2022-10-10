@@ -7,6 +7,12 @@ export type TProjectListData = {
 
 export default [
   {
+    slug: "nolbal-data",
+    title: "놀이의발견",
+    summary: "O2O 키즈 플랫폼 데이터 엔지니어",
+    period: "2022.01 - 2022.06",
+  },
+  {
     slug: "nolbal",
     title: "놀이의발견",
     summary: "O2O 키즈플랫폼 전사 Admin 개발",
