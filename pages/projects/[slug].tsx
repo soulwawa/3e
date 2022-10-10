@@ -37,7 +37,7 @@ type Props = {
 const Container = styled.div`
   max-width: 68rem;
   margin: 10rem auto;
-  
+
   @media ${device.laptop} {
     margin: 5rem 1.5rem;
   }
@@ -87,7 +87,9 @@ const Project = ({ project }: Props) => {
         <SkillTitle>개발 기술</SkillTitle>
         <Divider1x />
         <Skill>Backend : {project.skill.backend}</Skill>
-        <Skill>Frontend : {project.skill.frontend}</Skill>
+        {project.skill.frontend && (
+          <Skill>Frontend : {project.skill.frontend}</Skill>
+        )}
         {project.skill.operation && (
           <Skill>Operation : {project.skill.operation}</Skill>
         )}
@@ -102,21 +104,25 @@ const Project = ({ project }: Props) => {
         <SkillTitle>프로젝트 참여 정보</SkillTitle>
         <Divider1x />
         <Skill dangerouslySetInnerHTML={{ __html: project.content }} />
-        <LightLineDivider />
-        <Divider1x />
-        <SkillTitle>프로젝트 스크린샷</SkillTitle>
-        <Divider1x />
-        <Divider1x />
-        {project.images.map((ele, index) => (
-          <ImageItem key={index}>
-            <Image
-              src={ele}
-              alt={project.slug + index}
-              width="900"
-              height="600"
-            />
-          </ImageItem>
-        ))}
+        {project.images.length > 0 && (
+          <>
+            <LightLineDivider />
+            <Divider1x />
+            <SkillTitle>프로젝트 스크린샷</SkillTitle>
+            <Divider1x />
+            <Divider1x />
+            {project.images.map((ele, index) => (
+              <ImageItem key={index}>
+                <Image
+                  src={ele}
+                  alt={project.slug + index}
+                  width="900"
+                  height="600"
+                />
+              </ImageItem>
+            ))}
+          </>
+        )}
       </Container>
       <Footer />
     </Layout>
