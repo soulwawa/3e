@@ -77,6 +77,10 @@ export default class MyApp extends App {
             gtag('config', 'G-1FRS4SX1ET');
             `}
         </Script>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap"
+          rel="stylesheet"
+        />
         <Global />
         <Component {...pageProps} />
       </>
