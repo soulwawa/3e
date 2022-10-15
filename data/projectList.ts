@@ -7,6 +7,12 @@ export type TProjectListData = {
 
 export default [
   {
+    slug: "hi-inven",
+    title: "안녕재고",
+    summary: "간단한 물품 관리 서비스",
+    period: "2022.09 - ",
+  },
+  {
     slug: "nolbal-data",
     title: "놀이의발견",
     summary: "O2O 키즈 플랫폼 데이터 엔지니어",

@@ -23,6 +23,7 @@ type TSkill = {
 type ProjectType = {
   slug: string;
   title: string;
+  site?: string;
   period: string;
   skill: TSkill;
   content: string;
@@ -45,6 +46,14 @@ const Container = styled.div`
 
 const Title = styled.h1`
   font-size: 1.8rem;
+  color: black;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  font-weight: bold;
+`;
+
+const Site = styled.h3`
+  font-size: 1.2rem;
   color: black;
   margin-bottom: 1.5rem;
   text-align: left;
@@ -81,6 +90,13 @@ const Project = ({ project }: Props) => {
     <Layout>
       <Container>
         <Title>{project.title}</Title>
+        {project.site && (
+          <Site>
+            <a href={project.site} target="_blank">
+              {project.site}
+            </a>
+          </Site>
+        )}
         <Period>프로젝트 기간 : {project.period}</Period>
         <LineDivider />
         <Divider1x />
@@ -138,6 +154,7 @@ type Params = {
 export async function getStaticProps({ params }: Params) {
   const project = getPostBySlug(params.slug, [
     "title",
+    "site",
     "period",
     "skill",
     "slug",
