@@ -133,7 +133,7 @@ const Project = ({ project }: Props) => {
                   src={ele}
                   alt={project.slug + index}
                   width="900"
-                  height="600"
+                  height="500"
                 />
               </ImageItem>
             ))}

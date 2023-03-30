@@ -9,7 +9,7 @@ export default [
   {
     slug: "hi-inven",
     title: "안녕재고",
-    summary: "간단한 물품 관리 서비스",
+    summary: "간단한 재고 관리 서비스",
     period: "2022.09 - ",
   },
   {
