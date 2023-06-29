@@ -71,22 +71,21 @@ export default function Work() {
       <Divider1x />
       <WorkTitle>[📃 2022.08 ~ / 바로팜 / 백엔드 엔지니어]</WorkTitle>
       <WorkDescriptionContainer>
-        <WorkDescriptionTitle>
-          ▶️ 의약품 주문 통합 플랫폼 백엔드 엔지니어
-        </WorkDescriptionTitle>
+        <WorkDescriptionTitle>▶️ 의약품 주문 통합 플랫폼</WorkDescriptionTitle>
       </WorkDescriptionContainer>
       <Divider1x />
       <WorkDescriptionDetail>
-        {`- 바로팜 Restful API 설계 및 개발
-          - 파트너, CMS 페이지 개발`}
+        {`- Python Django REST API 웹 서비스
+          - Next.js 를 이용한 파트너 페이지 개발
+          - Next.js 를 이용한 CMS(관리자) 페이지 개발`}
       </WorkDescriptionDetail>
       <Divider1x />
       <LightLineDivider />
       {/*라이픽*/}
       <Divider1x />
       <WorkTitle>
-        [📃 2022.06 ~ 2022.07 / 라이픽 / 테크챕터 검색&데이터 파트 / 데이터
-        엔지니어]
+        [📃 2022.06 ~ 2022.07[폐업] / 라이픽 / 테크챕터 검색&데이터 파트 /
+        데이터 엔지니어]
       </WorkTitle>
       <WorkDescriptionContainer>
         <WorkDescriptionTitle>
@@ -122,7 +121,7 @@ export default function Work() {
           
           [놀이의발견 CRM / O2O 키즈플랫폼 전사 관리자]
           - O20 키즈플랫폼 CRM, 전사 관리자 개발
-          - React / Python django REST API 웹 서비스
+          - React / Python Django REST API 웹 서비스
           - 기존 서비스 유지보수 및 Admin Tool 개발
           - 기존 jquery기반 레거시 프로젝트를 React기반으로 마이그레이션
           - 컨테이너 기반 빌드/배포 자동화 시스템 구축 참여
