@@ -1,7 +1,6 @@
 ---
 title: "VSETF"
-site: "https://www.vsetf.com"
-period: "2023.04 - "
+period: "2023.04 - 2023.12"
 skill:
   backend: Python-Django
   frontend: NEXT.js, tailwindcss

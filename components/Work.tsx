@@ -69,7 +69,7 @@ export default function Work() {
       <Title>👨🏻‍💻 Work Experiences</Title>
       {/*바로팜*/}
       <Divider1x />
-      <WorkTitle>[📃 2022.08 ~ / 바로팜 / 백엔드 엔지니어]</WorkTitle>
+      <WorkTitle>[📃 2022.08 ~ 2023.11 / 바로팜 / 백엔드 엔지니어]</WorkTitle>
       <WorkDescriptionContainer>
         <WorkDescriptionTitle>▶️ 의약품 주문 통합 플랫폼</WorkDescriptionTitle>
       </WorkDescriptionContainer>

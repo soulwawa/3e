@@ -10,7 +10,7 @@ export default [
     slug: "vsetf",
     title: "VSETF",
     summary: "ETF 비교 사이트",
-    period: "2023.04 - ",
+    period: "2023.04 - 2023.12",
   },
   {
     slug: "hi-inven",
