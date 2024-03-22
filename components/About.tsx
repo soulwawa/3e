@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import device from "../lib/device";
 
@@ -71,16 +75,22 @@ export default function About() {
         <AvatarImage src="/static/about/3e.jpeg" alt="profile" />
       </Avatar>
       <H1>
-        👋🏻 5년차 개발자로 스타트업에서 주로 풀스택 개발을 담당하였습니다.
-        <br/>
-        20명 정도 되는 개발조직 안에 9명으로 구성된 백엔드파트를 책임진 경험이 있습니다.
-        <br/><br/>
-        회사의 성장에 기여하는 것을 매우 흥미롭게 생각하며, 비효율적이고 반복되는 업무를 개선하는 걸 좋아합니다.
+        👋🏻 6년차 개발자로 스타트업에서 주로 풀스택 개발을 담당하였습니다.
+        <br />
+        20명 정도 되는 개발조직 안에 9명으로 구성된 백엔드파트를 책임진 경험이
+        있습니다.
+        <br />
+        <br />
+        회사의 성장에 기여하는 것을 매우 흥미롭게 생각하며, 비효율적이고
+        반복되는 업무를 개선하는 걸 좋아합니다.
       </H1>
       <ul>
         <IconList>
-          <A href="https://www.facebook.com/soulwawa" target="_blank">
-            <Icon icon={faFacebook} />
+          <A
+            href="https://www.linkedin.com/in/%EC%84%9D%EB%A7%8C-%EA%B3%A0-a7b1b6179/"
+            target="_blank"
+          >
+            <Icon icon={faLinkedin} />
           </A>
         </IconList>
         <IconList>
