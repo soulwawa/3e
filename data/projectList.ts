@@ -7,6 +7,12 @@ export type TProjectListData = {
 
 export default [
   {
+    slug: "checktodo",
+    title: "CheckTodo",
+    summary: "할일관리 생산성 솔루션",
+    period: "2023.08 - ",
+  },
+  {
     slug: "vsetf",
     title: "VSETF",
     summary: "ETF 비교 사이트",
