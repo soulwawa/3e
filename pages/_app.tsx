@@ -1,7 +1,6 @@
 import React from "react";
 import App from "next/app";
 import { createGlobalStyle } from "styled-components";
-import Script from "next/script";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 const Global = createGlobalStyle`
