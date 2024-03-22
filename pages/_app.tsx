@@ -2,6 +2,7 @@ import React from "react";
 import App from "next/app";
 import { createGlobalStyle } from "styled-components";
 import Script from "next/script";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const Global = createGlobalStyle`
 html, body, div, span, applet, object, iframe,
@@ -64,19 +65,9 @@ export default class MyApp extends App {
 
     return (
       <>
-        {/* Global site tag (gtag.js) - Google Analytics */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-1FRS4SX1ET"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-1FRS4SX1ET');
-            `}
-        </Script>
+        {process.env.NODE_ENV === "production" && (
+          <GoogleAnalytics gaId="G-1FRS4SX1ET" />
+        )}
         <link
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap"
           rel="stylesheet"
