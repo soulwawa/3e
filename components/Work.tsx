@@ -67,7 +67,7 @@ export default function Work() {
   return (
     <WorkContainer>
       <Title>👨🏻‍💻 Work Experiences</Title>
-      {/*바로팜*/}
+      {/*OIQ*/}
       <Divider1x />
       <WorkTitle>[📃 2023.11 ~ / OIQ / Develop Based Player]</WorkTitle>
       <WorkDescriptionContainer>
@@ -85,9 +85,11 @@ export default function Work() {
       </WorkDescriptionContainer>
       <Divider1x />
       <WorkDescriptionDetail>
-        {`- Python Django REST API 웹 서비스
-          - Next.js 를 이용한 파트너 페이지 개발
-          - Next.js 를 이용한 CMS(관리자) 페이지 개발`}
+        {`- 의약품 주문 통합 플랫폼 상품 전시 영역에 필요한 백엔드 API(Python Django) 서비스 개발 및 운영
+          - 전시영역 관리에 필요한 관리자 페이지(Next.js) 개발
+          - 파트너 페이지(Next.js) 개발
+          - 의약품 영업을 위한 세일즈 페이지(Next.js) 개발
+          - 코드레벨 최적화 및 리팩토링 다수 수행`}
       </WorkDescriptionDetail>
       <Divider1x />
       <LightLineDivider />
