@@ -13,16 +13,16 @@ export default [
     period: "2023.08 - ",
   },
   {
-    slug: "vsetf",
-    title: "VSETF",
-    summary: "ETF 비교 사이트",
-    period: "2023.04 - 2023.12",
-  },
-  {
     slug: "hi-inven",
     title: "안녕재고",
     summary: "간단한 재고 관리 서비스",
     period: "2022.09 - 2024.06",
+  },
+  {
+    slug: "vsetf",
+    title: "VSETF",
+    summary: "ETF 비교 사이트",
+    period: "2023.04 - 2023.12",
   },
   {
     slug: "nolbal-data",
