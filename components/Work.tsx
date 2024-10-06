@@ -67,9 +67,19 @@ export default function Work() {
   return (
     <WorkContainer>
       <Title>👨🏻‍💻 Work Experiences</Title>
+      {/*코넥시오에이치*/}
+      <Divider1x />
+      <WorkTitle>[📃 2024.05 ~ / 코넥시오에이치 / 백엔드 엔지니어]</WorkTitle>
+      <WorkDescriptionContainer>
+        <WorkDescriptionTitle>▶️ 비니지스 인텔리전스</WorkDescriptionTitle>
+      </WorkDescriptionContainer>
+      <Divider1x />
+      <WorkDescriptionDetail>{`- 매모판 서비스 개발`}</WorkDescriptionDetail>
+      <Divider1x />
+      <LightLineDivider />
       {/*OIQ*/}
       <Divider1x />
-      <WorkTitle>[📃 2023.11 ~ / OIQ / Develop Based Player]</WorkTitle>
+      <WorkTitle>[📃 2023.11 ~ 2024.02 / OIQ / Develop Based Player]</WorkTitle>
       <WorkDescriptionContainer>
         <WorkDescriptionTitle>▶️ 생산성 플랫폼</WorkDescriptionTitle>
       </WorkDescriptionContainer>
