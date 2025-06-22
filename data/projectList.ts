@@ -7,6 +7,12 @@ export type TProjectListData = {
 
 export default [
   {
+    slug: "memopan",
+    title: "매모판",
+    summary: "네이버 스마트스토어 셀러 상품 정보 분석 툴",
+    period: "2025.04 - ",
+  },
+  {
     slug: "checktodo",
     title: "CheckTodo",
     summary: "할일관리 생산성 솔루션",

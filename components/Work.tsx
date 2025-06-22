@@ -74,10 +74,15 @@ export default function Work() {
         <WorkDescriptionTitle>▶️ 비니지스 인텔리전스</WorkDescriptionTitle>
       </WorkDescriptionContainer>
       <Divider1x />
-      <WorkDescriptionDetail>{`- 매모판 서비스 개발`}</WorkDescriptionDetail>
+      <WorkDescriptionDetail>{`- 스마트스토어 분석 솔루션 ‘매모판’ 유지보수 및 기능 개선 주도
+- 문서화/주석 부족한 레거시 코드 기반에서 전체 구조 빠르게 파악
+- 핵심 기능 오류 수정, 신규 요구사항 기능 개발 및 안정적 운영
+- DevOps 퇴사 공백 대응 및 AWS 인프라 비용 약 40% 절감
+- 인프라 구조 재정비 및 신규 DevOps와 협업하여 안정화`}</WorkDescriptionDetail>
       <Divider1x />
       <LightLineDivider />
-      {/*OIQ*/}
+      {/*}
+      OIQ
       <Divider1x />
       <WorkTitle>[📃 2023.11 ~ 2024.02 / OIQ / Develop Based Player]</WorkTitle>
       <WorkDescriptionContainer>
@@ -87,6 +92,7 @@ export default function Work() {
       <WorkDescriptionDetail>{`- CheckTodo 앱 개발`}</WorkDescriptionDetail>
       <Divider1x />
       <LightLineDivider />
+      }*/}
       {/*바로팜*/}
       <Divider1x />
       <WorkTitle>[📃 2022.08 ~ 2023.11 / 바로팜 / 백엔드 엔지니어]</WorkTitle>
