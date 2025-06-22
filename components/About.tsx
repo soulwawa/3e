@@ -43,6 +43,24 @@ const H1 = styled.h1`
   }
 `;
 
+const P = styled.p`
+  font-size: 1.8rem;
+  font-weight: 200;
+  margin-bottom: 1.5rem;
+  line-height: 2.8rem;
+  word-break: keep-all;
+  text-align: left;
+
+  @media ${device.laptop} {
+    font-size: 1.5rem;
+  }
+
+  @media ${device.mobileL} {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+`;
+
 const IconList = styled.li`
   border-radius: 100%;
   border: 1px solid rgba(0, 0, 0, 0.25);
@@ -70,16 +88,26 @@ export default function About() {
       <Avatar>
         <AvatarImage src="/static/about/3e.jpeg" alt="profile" />
       </Avatar>
-      <H1>
-        👋🏻 6년차 개발자로 스타트업에서 주로 풀스택 개발을 담당하였습니다.
+      <H1>👋🏻 문제를 해결하며 함께 성장하는 개발자입니다.</H1>
+      <P>
+        스타트업부터 다양한 규모의 조직에서 백엔드와 풀스택 개발을 경험하며,
+        서비스 성능 최적화와 안정적인 시스템 구축에 집중해 왔습니다.
         <br />
-        20명 정도 되는 개발조직 안에 9명으로 구성된 백엔드파트를 책임진 경험이
-        있습니다.
+        <br />
+        작은 문제에서 시작해 흐름을 바꾸는 일을 좋아하고,
+        <br />
+        회사의 성장에 기여할 수 있는 지점을 발견하고 개선하는 데서 큰 보람과
+        흥미를 느낍니다.
         <br />
         <br />
-        회사의 성장에 기여하는 것을 매우 흥미롭게 생각하며, 비효율적이고
-        반복되는 업무를 개선하는 걸 좋아합니다.
-      </H1>
+        비효율적이거나 반복적인 작업을 개선하고, 팀과 함께 일의 방향성을
+        고민하며 성장해왔습니다.
+        <br />
+        기술적인 해결뿐 아니라 협업과 커뮤니케이션에서도 성과를 내는 개발자를
+        지향합니다.
+        <br />
+      </P>
+
       <ul>
         <IconList>
           <A
