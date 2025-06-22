@@ -67,7 +67,7 @@ const ProjectItem = ({ title, period, summary, slug }: TProjectListData) => {
 
 export default function Project() {
   return (
-    <ProjectContainer>
+    <ProjectContainer id="project">
       <Title>📔 Project</Title>
       <ProjectGrid>
         {ProjectListData.map((ele: TProjectListData, index) => (
