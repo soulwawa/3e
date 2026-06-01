@@ -2,7 +2,7 @@
 title: '차세대 정보보안 R&D (Cyber Threat Intelligence R&D)'
 period: '2018.06 - 2019.01'
 skill:
-    backend : Python-Django, SQLite, MonogoDB
+    backend : Python-Django, SQLite, MongoDB
     frontend: HTML, CSS, JAVASCRIPT(JQuery, Ajax)   
     operation: Linux
 images: ['/static/project/dp/dprnd1.png','/static/project/dp/dprnd2.png']

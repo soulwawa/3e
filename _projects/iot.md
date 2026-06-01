@@ -5,7 +5,7 @@ skill:
     backend : JAVA (SPRING BOOT, Mybatis) PYTHON(FLASK), MySQL
     frontend: HTML, CSS, JAVASCRIPT(JQuery, AJAX)     
     operation: Heroku
-images: ['/static/project/iot/project.png','/static/project/iot/hardware.png', '/static/project/iot/hardware.png',
+images: ['/static/project/iot/project.png','/static/project/iot/hardware.png',
 '/static/project/iot/index.gif']
 link: 'https://github.com/soulwawa/ISAVEU'
 ---

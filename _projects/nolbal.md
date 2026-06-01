@@ -7,7 +7,7 @@ skill:
     operation: AWS EC2(docker), RDS(MySQL), ELK
 images: ['/static/project/nolbal/nolbal.jpg']
 ---
-- O20 키즈플랫폼 CRM, 전사 관리자 개발
+- O2O 키즈플랫폼 CRM, 전사 관리자 개발
 - React / Python django REST API 웹 서비스
 - 기존 서비스 유지보수 및 Admin Tool 개발
 - 기존 jquery기반 레거시 프로젝트를 React기반으로 마이그레이션

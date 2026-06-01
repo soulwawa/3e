@@ -2,7 +2,7 @@
 title: 'CTI 정보보안 데이터 웹 플랫폼 구축'
 period: '2018.09 - 2019.01'
 skill:
-    backend : Python-Django, PostgreSQL, MonogoDB, Neo4j, Redis
+    backend : Python-Django, PostgreSQL, MongoDB, Neo4j, Redis
     frontend: HTML, CSS, JAVASCRIPT, Jquery    
     operation: Linux
 images: ['/static/project/dp/malinfo_service_flow.png','/static/project/dp/malinfo.png']
