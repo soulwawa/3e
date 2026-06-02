@@ -7,16 +7,16 @@ export const skillGroups: SkillGroup[] = [
   {
     title: "Backend",
     items: [
-      "Python (Django · Flask · Sanic)",
+      "Python (Django)",
       "Node.js (Express)",
       "Java (Spring Boot)",
+      "Supabase",
       "REST API",
-      "GraphQL (Hasura · Graphene)",
     ],
   },
   {
     title: "Frontend",
-    items: ["React", "Next.js", "Vue", "Flutter", "TypeScript", "TailwindCSS"],
+    items: ["React", "Next.js", "SwiftUI", "TypeScript"],
   },
   {
     title: "Data",
@@ -24,18 +24,15 @@ export const skillGroups: SkillGroup[] = [
       "Airflow ETL",
       "데이터 파이프라인",
       "ClickHouse",
-      "AWS Redshift",
-      "QuickSight (BI)",
-      "추천 모델",
     ],
   },
   {
     title: "Infra · DB",
     items: [
-      "AWS (EC2 · ECS · RDS · EB · CodePipeline · S3 · CloudFront · ELK)",
+      "AWS",
       "Docker",
-      "PostgreSQL DBA",
-      "Redis · Valkey",
+      "PostgreSQL",
+      "Redis",
     ],
   },
 ];

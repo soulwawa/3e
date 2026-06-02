@@ -1,6 +1,5 @@
 ---
 title: "안녕재고 (서비스 종료)"
-site: "https://hi-inven.com"
 period: "2022.09 - 2024.06"
 skill:
   backend: Python-Django

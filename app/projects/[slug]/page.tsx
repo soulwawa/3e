@@ -35,6 +35,8 @@ const FIELDS = [
   "content",
 ];
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return getProjectSlugs()
     .filter((s) => s.endsWith(".md"))
@@ -52,6 +54,14 @@ export async function generateMetadata({
     title: project.title,
     description: `${project.title} — 고석만(3ES) 프로젝트`,
   };
+}
+
+function prettyUrl(url: string) {
+  try {
+    return decodeURIComponent(url);
+  } catch {
+    return url;
+  }
 }
 
 export default async function ProjectPage({
@@ -88,7 +98,7 @@ export default async function ProjectPage({
           rel="noopener noreferrer"
           className="mt-2 inline-block font-medium text-accent hover:underline"
         >
-          {project.site}
+          {prettyUrl(project.site)}
         </a>
       )}
 
@@ -122,7 +132,7 @@ export default async function ProjectPage({
                   rel="noopener noreferrer"
                   className="text-accent hover:underline"
                 >
-                  {project.link}
+                  {prettyUrl(project.link)}
                 </a>
               </dd>
             </div>
@@ -136,7 +146,7 @@ export default async function ProjectPage({
       />
 
       {images.length > 0 && (
-        <div className="mt-12 flex flex-wrap justify-center gap-4">
+        <div className="mt-12 flex snap-x gap-4 overflow-x-auto pb-3">
           {images.map((src, i) => (
             // eslint-disable-next-line @next/next/no-img-element
             <img
@@ -144,7 +154,7 @@ export default async function ProjectPage({
               src={src}
               alt={`${project.title} 스크린샷 ${i + 1}`}
               loading="lazy"
-              className="h-auto max-h-[600px] w-auto max-w-full rounded-xl border border-border"
+              className="h-[480px] w-auto shrink-0 snap-start rounded-xl border border-border"
             />
           ))}
         </div>

@@ -11,9 +11,9 @@ export const profile = {
     {
       value: "10개월+",
       label: "무중단 운영",
-      note: "단독 설계·런칭한 내재화 서비스",
+      note: "설계·런칭을 주도한 내재화 서비스",
     },
-    { value: "1,668", label: "실사용자", note: "직접 출시·운영한 앱" },
+    { value: "4종", label: "직접 출시한 앱", note: "App Store 출시·운영 (안녕재고·CheckTodo 등)" },
     { value: "−40%", label: "인프라 비용", note: "DevOps 공백 대응·절감" },
   ],
   howIWork: [
