@@ -1,27 +1,29 @@
 ---
-title: "Memopan - 네이버 스마트스토어 셀러 상품 정보 분석 툴"
-period: "2024.05 - "
+title: "매모판 · 네이버 스마트스토어 셀러 상품 분석 SaaS"
+period: "2024.05 - 현재"
 skill:
-  backend: node.js
+  backend: "Java (Spring Boot · JPA · QueryDSL), Python (Airflow · SQS 워커)"
   frontend:
-  operation: AWS EC2(docker swarm), RDS(Postgresql), Clickhouse
-images:
-  [
-    "/static/project/memopan/memopan.jpeg",
-    "/static/project/memopan/memopan1.jpeg",
-    "/static/project/memopan/memopan2.jpeg",
-    "/static/project/memopan/memopan3.jpeg",
-    "/static/project/memopan/memopan4.jpeg",
-  ]
+  operation: "AWS(Aurora PostgreSQL · SQS · S3), ClickHouse, Valkey, Argo CD"
+images: []
 ---
 
-- [커머스솔루션마켓](https://solution.smartstore.naver.com/ko/solution/76DgGDhLyAuB6lwdl28QSe/detail)
-- [홈페이지](https://memopan.io/d/pro/intro)
+## 문제
 
--
+'매모판'은 네이버 스마트스토어 셀러를 위한 상품 분석 솔루션으로, 처음엔 **외부 개발사가 만든 별도 앱(Node.js)** 이었습니다. 이를 **① 사내 개발로 내재화**하고, 나아가 **② 네이버 커머스 안의 기능으로 편입**시켜야 했습니다. 기획자가 도메인 로직을 완전히 파악하지 못한 상태에서, 백엔드와 내재화 설계를 직접 주도했습니다.
 
-“상품등록정보 분석, 노출순위 추적 & 원인 분석, 경쟁상품 분석, 키워드 및 카테고리 시장정보 상세분석 등”
+## 접근
 
-- 스마트스토어 분석 솔루션 ‘매모판’ 유지보수 및 기능 개선
-- node.js express.js REST API 웹 서비스
-- 코드레벨 최적화 및 리팩토링 다수 수행
+- 기존 **Node.js 서비스를 인수·안정화**하고, 떠난 DevOps 공백을 직접 대응
+- 내재화하며 백엔드를 **헥사고날 아키텍처로 재설계·포팅**, 검색순위 진단·상품명 SEO 분석·네이버 커머스 API 연동 등 핵심 기능을 직접 구현
+- **상품 동기화 파이프라인과 Airflow 기반 ETL**을 신규 구축해 데이터 정합성 확보
+- **DB 운영을 직접 맡아 성능·안정성 유지** (DBA 겸임)
+- 구 Node.js 버전은 캐시 인프라 전환·런타임 업그레이드 후 장애 없이 무중단 종료
+
+## 결과
+
+- 외부 개발사의 별도 앱으로 시작한 솔루션을 **네이버 커머스 안의 기능으로 안착**
+- 내재화 서비스 2025.07 런칭 후 **약 10개월 무중단 운영**
+- 약 **2.9TB** 운영 DB(단일 products 테이블 990GB)를 전담 DBA 없이 무장애 운영
+- (구) Node.js 운영 시기 **인프라 비용 약 40% 절감** (DevOps 공백 대응)
+- 기획 ~ 설계 ~ 구축 ~ 운영 ~ DBA 전 영역을 주도

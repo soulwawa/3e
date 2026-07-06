@@ -1,18 +1,29 @@
-import React from "react";
-import styled from "styled-components";
-
-const StyledFooter = styled.footer`
-  flex-basis: 2em;
-  flex-shrink: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  font-size: 1.2rem;
-  padding: 1rem 0;
-`;
+import { profile } from "@/data/profile";
+import { Icon } from "./Icon";
 
 export default function Footer() {
   return (
-    <StyledFooter>Copyright &copy; 2019. 3e All rights reserved</StyledFooter>
+    <footer className="border-t border-border/60">
+      <div className="mx-auto flex max-w-content flex-col items-center gap-4 px-6 py-12 text-center">
+        <div className="flex items-center gap-5">
+          {profile.socials.map((s) => (
+            <a
+              key={s.label}
+              href={s.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={s.label}
+              className="text-muted transition-colors hover:text-foreground"
+            >
+              <Icon name={s.icon} className="h-5 w-5" />
+            </a>
+          ))}
+        </div>
+        <p className="text-sm text-muted">
+          © {new Date().getFullYear()} {profile.name} ({profile.handle}). All
+          rights reserved.
+        </p>
+      </div>
+    </footer>
   );
 }
