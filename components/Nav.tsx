@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Icon } from "./Icon";
 import { profile } from "@/data/profile";
 
@@ -15,11 +15,6 @@ const navItems = [
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
-  const [dark, setDark] = useState(false);
-
-  useEffect(() => {
-    setDark(document.documentElement.classList.contains("dark"));
-  }, []);
 
   function toggleTheme() {
     const next = !document.documentElement.classList.contains("dark");
@@ -27,7 +22,6 @@ export default function Nav() {
     try {
       localStorage.setItem("theme", next ? "dark" : "light");
     } catch {}
-    setDark(next);
   }
 
   return (
@@ -53,7 +47,8 @@ export default function Nav() {
             aria-label="테마 전환"
             className="text-muted transition-colors hover:text-foreground"
           >
-            <Icon name={dark ? "sun" : "moon"} className="h-5 w-5" />
+            <Icon name="sun" className="hidden h-5 w-5 dark:block" />
+            <Icon name="moon" className="h-5 w-5 dark:hidden" />
           </button>
         </div>
 
@@ -63,7 +58,8 @@ export default function Nav() {
             aria-label="테마 전환"
             className="text-muted transition-colors hover:text-foreground"
           >
-            <Icon name={dark ? "sun" : "moon"} className="h-5 w-5" />
+            <Icon name="sun" className="hidden h-5 w-5 dark:block" />
+            <Icon name="moon" className="h-5 w-5 dark:hidden" />
           </button>
           <button
             onClick={() => setOpen((v) => !v)}
