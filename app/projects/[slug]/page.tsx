@@ -46,9 +46,10 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const project = getPostBySlug(params.slug, ["title"]) as unknown as Project;
+  const { slug } = await params;
+  const project = getPostBySlug(slug, ["title"]) as unknown as Project;
   if (!project.title) return {};
   return {
     title: project.title,
@@ -67,9 +68,10 @@ function prettyUrl(url: string) {
 export default async function ProjectPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const project = getPostBySlug(params.slug, FIELDS) as unknown as Project;
+  const { slug } = await params;
+  const project = getPostBySlug(slug, FIELDS) as unknown as Project;
   if (!project.slug) notFound();
 
   const content = await markdownToHtml(project.content || "");
