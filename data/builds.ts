@@ -6,7 +6,7 @@ export type Build = {
   tags: string[];
 };
 
-// 직접 만들어 출시한 대표 빌드. slug는 _projects/<slug>.md 상세 페이지와 연결.
+// 출시한 대표 프로젝트. slug는 _projects/<slug>.md 상세 페이지와 연결.
 // 추가 프로젝트는 추후 공유받아 이 배열에 끼워넣음.
 export const featuredBuilds: Build[] = [
   {
@@ -20,22 +20,22 @@ export const featuredBuilds: Build[] = [
     slug: "hi-inven-ios",
     title: "안녕재고 · iOS",
     tagline: "대화로 집안 재고와 기한을 관리하는 iPhone 앱",
-    result: "온디바이스 AI 활용 · 2026.09 App Store 재출시",
+    result: "AI 에이전트 활용 개발 · 2026.09 App Store 재출시",
     tags: ["SwiftUI", "SwiftData", "Foundation Models", "ActivityKit"],
   },
   {
     slug: "price-recall",
     title: "얼마였지?",
     tagline: "묶음 구매까지 실단가로 기록·비교하는 생필품 가격 앱",
-    result: "기획·iOS·백엔드·운영까지 1인 풀스택 · App Store 정식 출시",
-    tags: ["SwiftUI", "Supabase", "단독 풀스택", "App Store 출시"],
+    result: "AI 에이전트 활용 개발 · iOS 앱·백엔드 운영",
+    tags: ["SwiftUI", "Supabase", "실단가 비교", "App Store 출시"],
   },
   {
     slug: "tiny-moments",
     title: "작은 위로",
     tagline: "아이 사진과 한 문장으로 남기는 육아일기·위로 카드 앱",
-    result: "기획·출시·운영까지 1인 개발 · 위젯에서 앱으로 이어 보기",
-    tags: ["SwiftUI", "SwiftData", "WidgetKit", "단독 출시"],
+    result: "AI 에이전트 활용 개발 · 위젯에서 앱으로 이어 보기",
+    tags: ["SwiftUI", "SwiftData", "WidgetKit", "기기 내 저장"],
   },
   {
     slug: "checktodo",
