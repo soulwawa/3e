@@ -6,7 +6,7 @@ export type Build = {
   tags: string[];
 };
 
-// 직접 만들어 출시한 대표 빌드. slug는 _projects/<slug>.md 상세 페이지와 연결.
+// 출시한 대표 프로젝트. slug는 _projects/<slug>.md 상세 페이지와 연결.
 // 추가 프로젝트는 추후 공유받아 이 배열에 끼워넣음.
 export const featuredBuilds: Build[] = [
   {
@@ -17,18 +17,25 @@ export const featuredBuilds: Build[] = [
     tags: ["Java · Spring Boot", "Python · Airflow", "PostgreSQL DBA", "ClickHouse"],
   },
   {
+    slug: "hi-inven-ios",
+    title: "안녕재고 · iOS",
+    tagline: "대화로 집안 재고와 기한을 관리하는 iPhone 앱",
+    result: "가족의 수기 재고 관리 불편에서 출발",
+    tags: ["SwiftUI", "SwiftData", "Foundation Models", "AI 활용 개발"],
+  },
+  {
     slug: "price-recall",
     title: "얼마였지?",
-    tagline: "반복 구매 상품의 '실단가'를 기록·비교하는 iOS 앱",
-    result: "기획·iOS·백엔드·운영까지 1인 풀스택 · App Store 정식 출시",
-    tags: ["SwiftUI", "Supabase", "단독 풀스택", "App Store 출시"],
+    tagline: "반복 구매하는 생필품의 가격 기록·비교 iOS 앱",
+    result: "매번 구매 가격을 다시 비교하는 번거로움에서 출발",
+    tags: ["SwiftUI", "Supabase", "실단가 비교", "AI 활용 개발"],
   },
   {
     slug: "tiny-moments",
     title: "작은 위로",
-    tagline: "부모를 위한 위로 카드 iOS 앱 (아이 사진 + 위로 문구)",
-    result: "착수 8일 만에 App Store 단독 출시 · 5주간 3개 버전 배포",
-    tags: ["SwiftUI", "SwiftData", "WidgetKit", "단독 출시"],
+    tagline: "아이 사진과 한 문장으로 남기는 육아일기·위로 카드 앱",
+    result: "지친 순간의 위로 · 부담 없는 육아 기록",
+    tags: ["SwiftUI", "SwiftData", "WidgetKit", "AI 활용 개발"],
   },
   {
     slug: "checktodo",
@@ -39,9 +46,9 @@ export const featuredBuilds: Build[] = [
   },
   {
     slug: "hi-inven",
-    title: "안녕재고",
-    tagline: "직접 출시·운영한 재고 관리 앱",
-    result: "실사용자 1,668명 · 종료까지 책임",
+    title: "안녕재고 · 초기 서비스",
+    tagline: "2022–2024 · 웹·iOS·Android 재고 관리 서비스",
+    result: "가입자 1,668명 · 2024.06 서비스 종료",
     tags: ["Django", "Next.js", "Capacitor", "AWS"],
   },
 ];

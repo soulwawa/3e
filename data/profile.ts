@@ -13,7 +13,7 @@ export const profile = {
       label: "무중단 운영",
       note: "설계·런칭을 주도한 내재화 서비스",
     },
-    { value: "4종", label: "직접 출시한 앱", note: "App Store 출시·운영 (안녕재고·CheckTodo 등)" },
+    { value: "4종", label: "출시한 앱", note: "App Store 출시·운영 (안녕재고·CheckTodo 등)" },
     { value: "−40%", label: "인프라 비용", note: "DevOps 공백 대응·절감" },
   ],
   howIWork: [
